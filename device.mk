@@ -67,7 +67,7 @@ PRODUCT_COPY_FILES += \
 
 # Added
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/tablet_core_hardware.xml.xml:system/etc/permissions/tablet_core_hardware.xml.xml \
+    frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml
 
     # permissions files that are in stock rom, and available in CM => added them 2016/10/08
 PRODUCT_COPY_FILES += \
