@@ -65,11 +65,12 @@ net.tcp.buffersize.edge=4096,8 7380,256960,4096,163 84,256960
 ##
 #ro.mediatek.platform=mt8127
 #ro.mediatek.chip_ver=S01
-
-#drm.service.enabled=true
 #ro.mediatek.version.branch=L0.MP1
 #ro.mediatek.version.sdk=4
+
+#drm.service.enabled=true
 #ro.mtk_drm_key_mng_support=1
+
 #ro.have_aee_feature=1
 #persist.mtk.aee.aed=on
 
