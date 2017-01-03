@@ -1,3 +1,42 @@
+# less blobs
+#system/lib/hw/audio_policy.default.so
+#system/lib/hw/audio_policy.stub.so
+#system/lib/hw/audio.primary.default.so
+#system/lib/hw/audio.r_submix.default.so
+#system/lib/hw/audio.usb.default.so
+
+#system/lib/hw/gralloc.default.so
+#system/lib/hw/power.default.so
+#system/lib/hw/local_time.default.so
+#system/lib/hw/keystore.default.so
+#system/lib/hw/vibrator.default.so
+#system/lib/libaudio-resampler.so
+#system/lib/libcameraanalyzer.so
+# /less blobs
+
+# additions
+#system/lib/libmemtrack.so
+# /additions
+
+
+# NEXT TRIES...
+# less blobs
+# build or blob ?
+# system/lib/libion
+# system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so
+# can be built with extra added source
+#system/lib/libgralloc_extra.so
+# Check if GPS is working fine before removing libcurl.so
+#system/lib/libcurl.so
+# /less blobs
+
+# more blobs ?
+#system/lib/libGLESv2.so
+#system/lib/libGLESv1_CM.so
+#system/lib/libGLES_trace.so
+# /more blobs ?
+
+
 system/bin/6620_launcher
 system/bin/6620_wmt_concurrency
 system/bin/6620_wmt_lpbk
@@ -19,26 +58,15 @@ system/bin/wmt_loader
 system/lib/egl/libEGL_mali.so
 system/lib/egl/libGLESv1_CM_mali.so
 system/lib/egl/libGLESv2_mali.so
-system/lib/hw/audio_policy.default.so
-system/lib/hw/audio_policy.stub.so
-system/lib/hw/audio.primary.default.so
 system/lib/hw/audio.primary.mt8127.so
-system/lib/hw/audio.r_submix.default.so
-system/lib/hw/audio.usb.default.so
 system/lib/hw/camera.mt8127.so
-system/lib/hw/gralloc.default.so
 system/lib/hw/gralloc.mt8127.so
 system/lib/hw/hwcomposer.mt8127.so
-system/lib/hw/keystore.default.so
-system/lib/hw/local_time.default.so
-system/lib/hw/power.default.so
 system/lib/hw/sensors.mt8127.so
-system/lib/hw/vibrator.default.so
 system/lib/lib_uree_mtk_crypto.so
 system/lib/lib_uree_mtk_video_secure_al.so
 system/lib/lib3a.so
 system/lib/libaed.so
-system/lib/libaudio-resampler.so
 system/lib/libaudiocompensationfilter.so
 system/lib/libaudiocomponentengine.so
 system/lib/libaudiocustparam.so
@@ -67,7 +95,6 @@ system/lib/libcam.utils.so
 system/lib/libcamalgo.so
 system/lib/libcamdrv.so
 system/lib/libcamera_client_mtk.so
-system/lib/libcameraanalyzer.so
 system/lib/libcameracustom.so
 system/lib/libcustom_nvram.so
 system/lib/libcvsd_mtk.so
@@ -187,8 +214,8 @@ system/vendor/lib/drm/libdrmwvmplugin.so
 system/lib/libui_ext.so
 system/lib/libperfservicenative.so
 system/lib/libmtcloader.so
-system/lib/libmemtrack.so
 system/lib/libcamera_metadata.so
+
 
 # Related to charging animation
 system/lib/libshowlogo.so

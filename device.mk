@@ -113,6 +113,43 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_DIR)/configs/audio_policy.conf:system/etc/audio_policy.conf
 
 
+# lessblobs
+
+# libion
+#PRODUCT_PACKAGES += \
+#        libion
+
+PRODUCT_PACKAGES += \
+        gralloc.default \
+        keystore.default \
+        local_time.default \
+        power.default \
+        vibrator.default
+
+# some additions...
+PRODUCT_PACKAGES += \
+        libmemtrack \
+        hwcomposer.default
+
+
+# audio
+PRODUCT_PACKAGES += \
+        audio_policy.default \
+        audio_policy.stub \
+        audio.primary.default \
+        audio.r_submix.default \
+        audio.usb.default \
+        libaudio-resampler
+
+# cam
+PRODUCT_PACKAGES += \
+        libcameraanalyzer
+
+# /lessblobs
+
+
+
+
 # Audio
 PRODUCT_PACKAGES += \
 	audio.a2dp.default
