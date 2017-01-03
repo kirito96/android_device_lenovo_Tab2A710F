@@ -152,7 +152,9 @@ PRODUCT_PACKAGES += \
     hwcomposer.default \
     libmemtrack \
     libmediandk \
-    libstagefright_rtsp
+    libstagefright_rtsp \
+    libstagefright_webm \
+    lights.mt8127
 
 # cam
 PRODUCT_PACKAGES += \
