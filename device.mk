@@ -153,8 +153,7 @@ PRODUCT_PACKAGES += \
     libmemtrack \
     libmediandk \
     libstagefright_rtsp \
-    libstagefright_webm \
-    lights.mt8127
+    libstagefright_webm
 
 # cam
 PRODUCT_PACKAGES += \
