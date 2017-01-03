@@ -7,7 +7,6 @@ KERNEL_DIR := kernel/lenovo/Tab2A710F
 # include stock ProjectConfig
 include $(DEVICE_DIR)/ProjectConfig.mk
 
-
 # Additional includes
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_DIR)/include
 
@@ -147,10 +146,13 @@ BOARD_SEPOLICY_DIRS := \
 
 
 # test
+
+AUDIO_FEATURE_ENABLED_FM := true
+
+
 # Some flags that may be related to HWC problems. Tried some...
 #
 # from https://github.com/DevUt/android_device_htc_endeavoru/blob/twrp3/BoardConfig.mk
-#BOARD_EGL_WORKAROUND_BUG_10194508 := true
 #TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true  # removed, as seen removed on github, try it later
 #BOARD_EGL_SKIP_FIRST_DEQUEUE := true
 #BOARD_EGL_NEEDS_FNW := true                    # seems old, try it later, may make surfaceflinger fail
@@ -169,9 +171,6 @@ BOARD_SEPOLICY_DIRS := \
 
 # from http://pastebin.com/Vyk35GrL
 #TARGET_DISPLAY_INSECURE_MM_HEAP := true
-
-# changes to existing flags
-#TARGET_BOOTLOADER_BOARD_NAME := mt8127          # change ?
 
 #BOARD_EGL_SYSTEMUI_PBSIZE_HACK := true
 #AUDIO_FEATURE_ENABLED_FM := true

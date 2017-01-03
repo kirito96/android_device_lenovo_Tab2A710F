@@ -246,11 +246,11 @@ system/etc/factory.ini
 system/bin/ipod
 
 # 2016/10/17 FM radio. partial and may not be needed. Commented for now
-#system/lib/libfmmt6628.so
-#system/lib/libfmmt6627.so
-#system/lib/libfmjni.so
-#system/lib/libfmcust.so
-#system/lib/libfmmt6620.so
+system/lib/libfmmt6628.so
+system/lib/libfmmt6627.so
+system/lib/libfmjni.so
+system/lib/libfmcust.so
+system/lib/libfmmt6620.so
 
 # Firmware
 system/etc/firmware/ROMv2_patch_1_0_hdr.bin
