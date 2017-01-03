@@ -23,6 +23,9 @@
 system/lib/libAAX_SDK.so
 system/lib/libmtkplayer.so
 
+# AEE related
+system/bin/rtt
+
 # jni
 #system/lib/librtp_jni.so
 #system/lib/libbluetooth_jni.so
