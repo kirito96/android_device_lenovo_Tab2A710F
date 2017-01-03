@@ -42,3 +42,45 @@ persist.sys.isUsbOtgEnabled=1
 
 # Disable dirty region for Mali
 debug.hwui.render_dirty_regions=false
+
+
+#TESTS
+
+# Improve performance in video playback and streaming
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+media.stagefright.enable-rtsp=true
+media.stagefright.enable-record=true
+
+net.tcp.buffersize.default=4096,87380,256960, 4096, 16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,409 6,163 84,256960
+net.tcp.buffersize.umts=4096,8 7380,256960,4096,163 84,256960
+net.tcp.buffersize.gprs=4096,8 7380,256960,4096,163 84,256960
+net.tcp.buffersize.edge=4096,8 7380,256960,4096,163 84,256960
+
+
+
+##
+#ro.mediatek.platform=mt8127
+#ro.mediatek.chip_ver=S01
+
+#drm.service.enabled=true
+#ro.mediatek.version.branch=L0.MP1
+#ro.mediatek.version.sdk=4
+#ro.mtk_drm_key_mng_support=1
+#ro.have_aee_feature=1
+#persist.mtk.aee.aed=on
+
+#debug.sf.hw=1
+#persist.sys.ui.hw=1
+#debug.performance.tuning=1
+#video.accelerate.hw=1
+#debug.egl.profiler=1
+#debug.egl.hw=1
+#debug.composition.type=gpu
+
+#media.stagefright.legacyencoder=true
+#media.stagefright.less-secure=true
+
