@@ -151,7 +151,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     hwcomposer.default \
     libmemtrack \
-    libmediandk
+    libmediandk \
+    libstagefright_rtsp
 
 # cam
 PRODUCT_PACKAGES += \
