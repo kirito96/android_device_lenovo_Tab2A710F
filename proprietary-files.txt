@@ -14,8 +14,29 @@
 #system/lib/libcameraanalyzer.so
 # /less blobs
 
-# additions
-#system/lib/libmemtrack.so
+# additions ?
+system/lib/libAAX_SDK.so
+system/lib/libmediandk.so
+system/lib/libmtkplayer.so
+
+# jni
+#system/lib/librtp_jni.so
+#system/lib/libbluetooth_jni.so
+#system/lib/libjnigraphics.so
+#system/lib/libdefcontainer_jni.so
+#system/lib/libjni_eglfence.so
+#system/lib/libdrmframework_jni.so
+#system/lib/libmedia_jni.so
+#system/lib/libjni_filtershow_filters.so
+#system/lib/libmpojni.so
+#system/lib/libjnihelper.so
+#system/lib/libjni_pq.so
+#system/lib/libPQjni.so
+#system/lib/libem_wifi_jni.so
+#system/lib/libvobsub_jni.so
+#system/lib/libjni_subtitle_bitmap.so
+#system/lib/libgifEncoder_jni.so
+
 # /additions
 
 
@@ -214,6 +235,7 @@ system/vendor/lib/drm/libdrmwvmplugin.so
 system/lib/libui_ext.so
 system/lib/libperfservicenative.so
 system/lib/libmtcloader.so
+system/lib/libmemtrack.so
 system/lib/libcamera_metadata.so
 
 
