@@ -82,15 +82,10 @@ PRODUCT_COPY_FILES += \
 #    frameworks/native/data/etc/android.hardware.touchscreen.multitouch.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.xml \
 #    frameworks/native/data/etc/android.hardware.touchscreen.multitouch.distinct.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml \
 
-
-
-
 # TEST ?
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.full.xml:system/etc/permissions/android.hardware.camera.full.xml \
     frameworks/native/data/etc/android.hardware.opengles.aep.xml:system/etc/permissions/android.hardware.opengles.aep.xml
-
-
 
     # Some permissions files that are in stock rom, but not in CM frameworks/native/data/etc/ => add them ? TODO
     #system/etc/permissions/org.simalliance.openmobileapi.xml
@@ -124,45 +119,47 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_DIR)/configs/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     $(DEVICE_DIR)/configs/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
 
-
 # Audio policy
 PRODUCT_COPY_FILES += \
     $(DEVICE_DIR)/configs/audio_policy.conf:system/etc/audio_policy.conf
 
 
-# lessblobs
+
+# LESSBLOBS
 
 # libion
 #PRODUCT_PACKAGES += \
-#        libion
+#    libion
 
 PRODUCT_PACKAGES += \
-        gralloc.default \
-        keystore.default \
-        local_time.default \
-        power.default \
-        vibrator.default
-
-# some additions...
-PRODUCT_PACKAGES += \
-        libmemtrack \
-        hwcomposer.default
-
+    gralloc.default \
+    keystore.default \
+    local_time.default \
+    power.default \
+    vibrator.default
 
 # audio
 PRODUCT_PACKAGES += \
-        audio_policy.default \
-        audio_policy.stub \
-        audio.primary.default \
-        audio.r_submix.default \
-        audio.usb.default \
-        libaudio-resampler
+    audio_policy.default \
+    audio_policy.stub \
+    audio.primary.default \
+    audio.r_submix.default \
+    audio.usb.default \
+    libaudio-resampler
+
+# some additions...
+PRODUCT_PACKAGES += \
+    hwcomposer.default \
+    libmemtrack \
+    libmediandk
 
 # cam
 PRODUCT_PACKAGES += \
-        libcameraanalyzer
+    libcamera_metadata \
+    libcameraanalyzer
 
-# /lessblobs
+# /LESSBLOBS
+
 
 
 

@@ -12,11 +12,15 @@
 #system/lib/hw/vibrator.default.so
 #system/lib/libaudio-resampler.so
 #system/lib/libcameraanalyzer.so
+
+#system/lib/libmemtrack.so
+#system/lib/libcamera_metadata.so
+#system/lib/libmediandk.so
+
 # /less blobs
 
 # additions ?
 system/lib/libAAX_SDK.so
-system/lib/libmediandk.so
 system/lib/libmtkplayer.so
 
 # jni
@@ -36,26 +40,34 @@ system/lib/libmtkplayer.so
 #system/lib/libvobsub_jni.so
 #system/lib/libjni_subtitle_bitmap.so
 #system/lib/libgifEncoder_jni.so
-
 # /additions
 
 
 # NEXT TRIES...
+
 # less blobs
 # build or blob ?
 # system/lib/libion
+
+# can be built with extra added source, but keep vendor version ?
 # system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so
+
 # can be built with extra added source
 #system/lib/libgralloc_extra.so
+
 # Check if GPS is working fine before removing libcurl.so
 #system/lib/libcurl.so
+
 # /less blobs
+
 
 # more blobs ?
 #system/lib/libGLESv2.so
 #system/lib/libGLESv1_CM.so
 #system/lib/libGLES_trace.so
 # /more blobs ?
+
+
 
 
 system/bin/6620_launcher
@@ -235,8 +247,6 @@ system/vendor/lib/drm/libdrmwvmplugin.so
 system/lib/libui_ext.so
 system/lib/libperfservicenative.so
 system/lib/libmtcloader.so
-system/lib/libmemtrack.so
-system/lib/libcamera_metadata.so
 
 
 # Related to charging animation
